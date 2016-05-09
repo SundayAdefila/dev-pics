@@ -10,7 +10,7 @@ chrome.storage.local.get("myPictures" , function(pics) {
   	// Render thumbnail.
 	  for (var i=0; i<items.length; i++) {
 	    var span = document.createElement('span');
-	    span.innerHTML = ['<img class="thumb" src="', items[i], '"/>'].join('');
+	    span.innerHTML = ['<img class="thumb swing" src="', items[i], '"/>'].join('');
 	    document.getElementById('list').insertBefore(span, null);
 	  }
   }
