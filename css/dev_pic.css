@@ -1,12 +1,49 @@
-.thumb {
-	height: 200px;
-	border: 10px double #000;
-	margin: 10px 5px 0 0;
-}
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
 
 body {
-    background-image: url("../images/bg.jpg");
-    background-color: #cccccc;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/memories_bg.jpg);
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+    max-width: 15em;
+    letter-spacing: -1px;
+    text-align: center;
+    font-weight: initial;
+    white-space: nowrap;
+}
+
+p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+label.btn.btn-block.btn-primary {
+    margin-left: 46%;
+}
+
+.thumb {
+    height: 200px;
+    border: 10px double #000;
+    margin: 10px 5px 0 0;
 }
 
 #header {
